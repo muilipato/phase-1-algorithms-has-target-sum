@@ -1,8 +1,11 @@
 // Write your algorithm here
 function hasTargetSum(array, target) {
-  for(let i=0; i<array.length-1; i++){
-    for(let j=i+1;j<array.length; j++){
-      if(array[i]+array[j]===target){
+  for(let i=0; i<array.length-1; i++) 
+  {
+    for(let j=i+1;j<array.length; j++) 
+    {
+      if(array[i]+array[j]===target) 
+      {
         return true;
       }
     }
@@ -14,7 +17,7 @@ function hasTargetSum(array, target) {
 
 /* 
   Write the Big O time complexity of your function here
-  Since the function has 2 loops, the time complexity is O(n*n) i.e O(n^2)
+  Since the function has 2 loops, the time complexity is O(n*n) i.e O(n^2). 
 */
 
 /* 
